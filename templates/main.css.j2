@@ -1,0 +1,58 @@
+html, body {
+  background: {{ background_color }};
+  color: {{ color }};
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: {{ link_color }};
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.layer {
+  max-width: 22.5rem;
+}
+
+.region {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block {
+  padding: 0 1rem;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.contact li span {
+  display: inline-block;
+  min-width: 3.5em;
+}
+
+.contact li span.label {
+  font-weight: bold;
+}
